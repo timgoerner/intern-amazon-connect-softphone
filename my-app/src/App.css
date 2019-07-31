@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+#containerDiv iframe{
+  height: 465px !important;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+    font: 100% "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+    color: #666;
+    background: #eee;
+}
+
+.flex-container {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    max-width: 650px;
+}
+
+.flex-container div{
+     margin: auto;
+}
+
+.flex-container img{
+    height:30px;
+    margin: 5px;
+}
+
+
+.mainBody{
+  
+    border: 1px solid #cbcbcb;
+    background-color: #FFF;
+    padding: 10px 10px 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(50, 50, 50, 0.1);
+    -webkit-box-shadow: 0 2px 5px rgba(50, 50, 50, 0.1);
+    -moz-box-shadow: 0 2px 5px rgba(50, 50, 50, 0.1);  
+}
+
+.border {
+    border: 1px solid #dedede;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(50, 50, 50, 0.1);
+    -webkit-box-shadow: 0 2px 5px rgba(50, 50, 50, 0.1);
+    -moz-box-shadow: 0 2px 5px rgba(50, 50, 50, 0.1); 
+}
+
+.ccp {
+    width: 320px; 
+    min-width: 200px; 
+    height: 465px; 
+    min-height: 400px;
+    padding:10px;
+}
+
+.contactAttributes{
+    margin:0;
+    padding:0;
+    width: 350px; 
+    min-width: 200px; 
+    height: 465px; 
+    min-height: 400px;
+   
+}
+
+legend {
+    padding: 7px;
+    font-weight: bold;
+    margin:5px;
+
+}
+
+.attributesTable {
+    table-layout: fixed;
+    width:100%;
+}
+
+tbody tr td{
+    padding-left: 25px;
+}
