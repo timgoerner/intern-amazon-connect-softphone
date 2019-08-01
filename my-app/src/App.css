@@ -20,11 +20,41 @@
 }
 #containerDiv iframe{
   height: 465px !important;
+  margin-left: 10px;
+  position: relative;
+  top: 70px; 
+  left: 35px;
+}
+.contactAttributes{
+  margin:0;
+  padding:0;
+  width: 350px; 
+  min-width: 200px; 
+  height: 465px; 
+  min-height: 400px;
+ margin-left: 450px;
+ position: relative;
+  bottom: 400px;
+  left: 215px;
+}
+.contactAttributes2{
+  margin:0;
+  padding:0;
+  width: 450px; 
+  min-width: 200px; 
+  height: 700px; 
+  min-height: 400px;
+ margin-left: 450px;
+ position: relative;
+  bottom: 870px;
+  right: 620px;
 }
 .App-link {
   color: #61dafb;
 }
-
+#attributesTable, #attributesTable2 {
+  border-width: 500px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -85,15 +115,7 @@ body {
     padding:10px;
 }
 
-.contactAttributes{
-    margin:0;
-    padding:0;
-    width: 350px; 
-    min-width: 200px; 
-    height: 465px; 
-    min-height: 400px;
-   
-}
+
 
 legend {
     padding: 7px;
@@ -105,6 +127,7 @@ legend {
 .attributesTable {
     table-layout: fixed;
     width:100%;
+    
 }
 
 tbody tr td{
